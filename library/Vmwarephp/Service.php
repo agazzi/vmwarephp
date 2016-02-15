@@ -53,6 +53,7 @@ class Service {
 	}
 
 	function getServiceContent() {
+			require_once 'TypeDefinitions.inc';
 		if (!$this->serviceContent)
 			$this->serviceContent = $this->makeSoapCall('RetrieveServiceContent', \Vmwarephp\Factory\SoapMessage::makeForServiceInstance());
 		return $this->serviceContent;
