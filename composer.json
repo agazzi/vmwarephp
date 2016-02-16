@@ -22,6 +22,6 @@
           "email": "contact@packagist.org"
     },
     "autoload": {
-        "psr-4": { "Agazzi\\VMWarephp\\": "" }
+        "psr-0": { "Vmwarephp": "library" }
     }
 }
